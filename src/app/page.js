@@ -1,7 +1,6 @@
 "use client";
 import About from "@/components/About";
 import Education from "@/components/Edccation";
-import Line from "@/components/MiddleLine";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
@@ -81,7 +80,6 @@ export default function Home() {
   
 
       {/* Sections */}
-      <Line />
       <SectionUi className="About w-full">
           <h2  id="about" className='before:h-1 before:absolute relative before:bg-orange-800 before:w-14 before:bottom-3 before:rounded-3xl text-center py-4 text-4xl md:text-5xl font-bold tracking-tight text-gray-900/90 italic'>
         About
@@ -93,7 +91,6 @@ export default function Home() {
         <Education />
       </SectionUi>
 
-      <Line />
       <SectionUi className="Services w-full">
         <h2
           id="services"
@@ -104,7 +101,6 @@ export default function Home() {
         <Services />
       </SectionUi>
 
-      <Line />
       <SectionUi className="Skills w-full">
         <h2  id="skills" className="before:h-1 before:absolute relative before:bg-orange-800 before:w-14 before:bottom-3 before:rounded-3xl text-center py-4 text-5xl font-bold tracking-tight text-gray-900/90 italic">
           Skills
@@ -112,7 +108,6 @@ export default function Home() {
         <Skills />
       </SectionUi>
 
-      <Line />
       <SectionUi className="Projects w-full">
         <h2  id="projects" className="before:h-1 before:absolute relative before:bg-orange-800 before:w-14 before:bottom-3 before:rounded-3xl text-center py-4 text-5xl font-bold tracking-tight text-gray-900/90 italic">
           Projects
