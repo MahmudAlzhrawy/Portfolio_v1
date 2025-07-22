@@ -3,10 +3,6 @@ import Image from "next/image";
 export default function Education() {
 return (
 <section className="py-10 px-4">
-    <h2 className="text-center w-20 mx-auto text-4xl font-bold italic text-gray-900/90 tracking-tight relative mb-10">
-    Education
-    <span className="absolute  left-1.5 bottom-0 h-1 w-14 bg-orange-800 rounded-3xl"></span>
-    </h2>
 
     <div className="max-w-4xl mx-auto flex flex-col gap-6 items-center text-gray-800">
     <p className="text-lg text-center leading-relaxed">

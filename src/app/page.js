@@ -88,6 +88,12 @@ export default function Home() {
       </SectionUi>
 
       <SectionUi className="Education w-full">
+        <h2
+          
+          className="before:h-1 before:absolute relative before:bg-orange-800 before:w-14 before:bottom-3 before:rounded-3xl text-center py-4 text-5xl font-bold tracking-tight text-gray-900/90 italic"
+        >
+        Education
+        </h2>
         <Education />
       </SectionUi>
 
