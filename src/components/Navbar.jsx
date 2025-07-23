@@ -2,7 +2,7 @@
 import { useState } from "react";
 import DarkModeToggle from "./DarkModeToggle";
 import { FiMenu, FiX } from "react-icons/fi";
-
+// import LanguageSwitcher from './LangSwap';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,7 +26,8 @@ export default function Navbar() {
 
       {/* Right Controls */}
       <div className="hidden md:flex items-center">
-        <DarkModeToggle />
+        {/* <DarkModeToggle /> */}
+        {/* <LanguageSwitcher /> */}
         <a
           href="/Mahmud Nagi M.pdf"
           download
@@ -53,7 +54,7 @@ export default function Navbar() {
           <a href="#services" className="hover:text-orange-600" onClick={toggleMenu}>Services</a>
           <a href="#skills" className="hover:text-orange-600" onClick={toggleMenu}>Skills</a>
           <div className="flex items-center justify-between pt-2 border-t border-gray-300 dark:border-gray-700">
-            <DarkModeToggle />
+            {/* <DarkModeToggle /> */}
             <a
               href="/Mahmud Nagi M.pdf"
               download
